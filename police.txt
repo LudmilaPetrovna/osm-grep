@@ -1,0 +1,6 @@
+police=naval_base
+amenity=police
+police=water_police
+type=police
+government=police
+police=offices

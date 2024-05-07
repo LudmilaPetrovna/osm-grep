@@ -1,0 +1,37 @@
+abandoned=hamlet
+abandoned:place=hamlet
+abandoned:place=village
+abandoned=village
+abonded:place=hamlet
+official_status=ru:город
+official_status=ru:городской посёлок
+official_status=ru:деревня
+official_status=ru:железнодорожная станция
+official_status=ru:железнодорожный разъезд
+official_status=ru:кордон
+official_status=ru:лесной посёлок
+official_status=ru:маяк
+official_status=ru:местечко
+official_status=ru:населённый пункт
+official_status=ru:посёлок
+official_status=ru:посёлок городского типа
+official_status=ru:посёлок при железнодорожной станции
+official_status=ru:рабочий посёлок
+official_status=ru:разъезд
+official_status=ru:село
+official_status=ru:станция
+official_status=ru:хутор
+official_status=район
+place:
+place
+place=farm
+place=region
+place=state
+place=city
+place=hamlet
+place=suburb
+place=town
+place=village
+population
+was:place=hamlet
+was:place=village
