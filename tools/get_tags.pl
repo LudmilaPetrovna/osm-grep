@@ -5,6 +5,7 @@ $skip=join("|",map{"$_"}split(/\n/,<<AAA));
 addr:
 alt_name=
 brand=
+check_date=
 comment=
 contact:
 created_by=
@@ -12,6 +13,12 @@ description=
 email=
 emergency:phone=
 facebook
+website=
+phone=
+brand:wikidata=
+brand:
+payment:
+language:
 fax
 fixme
 fixme:phone
@@ -37,7 +44,7 @@ if(/^lat\/lon [\-\d]+\/[\-\d]+: ([^\n]+)/s){
 @tags=split(/;; /,$1);
 map{
 $count{$_}++;
-}grep{!/addr:|alt_name=|brand=|comment=|contact:|created_by=|description=|email=|emergency:phone=|facebook|fax|fixme|fixme:phone|full_name|mapillary|name|opening_hours|operator|operator_name|owner|ref|ref:|source|source:/}@tags;
+}grep{!/$skip/}@tags;
 
 #print "@tags\n";
 

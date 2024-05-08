@@ -1,0 +1,16 @@
+amenity=bank
+amenity=atm
+amenity=bureau_de_change
+amenity=payment_centre
+amenity=money_transfer
+shop=money_lender
+shop=money_transfer 
+shop=pawnbroker
+atm=yes
+currency:EUR=yes
+currency:EUR=cash_in
+currency:USD=yes
+currency:USD=cash_in
+currency:RUB=yes
+currency:RUB=cash_in
+bic=
